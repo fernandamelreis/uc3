@@ -1,0 +1,10 @@
+idade = int(input("Digite a sua idade: "))
+alt = float(input("Digite a sua altura: "))
+peso = float(input("Digite o seu peso: "))
+
+print("----------------------------")
+print("Informações do usuário(a)")
+print("Idade: %d anos" %idade)
+print("Altura: %f m" %alt)
+print("Peso: %2.f kg" %peso)
+print("----------------------------")
